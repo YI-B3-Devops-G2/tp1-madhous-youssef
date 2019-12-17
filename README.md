@@ -3,6 +3,30 @@ github_username: Madhous
 
 Mail: youssef.madhous@ynov.com
 
+### Spécification de la VM
+```bash
+# VM Config
+RAM: 1GB
+OS: Ubuntu Server 18.04.3 LTS
+````
+- les paquets suivants doivent être installés:
+```bash
+# Needed libraries
+nodejs@12
+openssh-server
+nginx
+````
+- Un script de provisioning doit être présent dans le repos:
+```bash
+bootstrap.sh # Permet d’effectuer l’installation dans la VM
+````
+- Votre configuration vagrant doit contenir les options suivantes:
+```bash
+# Config
+- Les updates doivent être automatiques au build
+- Vous devez rendre accessible les port HTTP, HTTPS et SSH depuis votre
+host
+````
 ### Démarche de réalisation du TP
 - Télécharger l'iso d'Ubuntu Server 19.10
 
