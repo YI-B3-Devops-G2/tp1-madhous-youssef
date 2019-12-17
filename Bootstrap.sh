@@ -8,10 +8,5 @@
     sudo apt-get install -y openssh-server
     sudo systemctl start nginx
     cd /var/www/html
-    sudo echo "<!DOCTYPE html>
-    <html>
-     <body>
-     B3 Devops - TP 1
-     </body>
-     </html>" > index.nginx-debian.html
+    sudo echo  > index.nginx-debian.html
      sudo systemctl restart nginx

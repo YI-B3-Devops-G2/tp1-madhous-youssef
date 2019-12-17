@@ -8,10 +8,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.0.0] - 2017-06-20
 ### Changed
-- Modification de CHANGELOG.md
-- Modification de README.md
-- Modification de bootstrap.sh
+- CHANGELOG.md
+- README.md
+- bootstrap.sh
 ### Added
-- Ajout du fichier CHANGELOG.md dans la répo
-- Ajout du fichier README.md dans la répo
-- Ajout du script bootstrap.sh dans la répo
+- CHANGELOG.md dans la répo
+- README.md dans la répo
+- bootstrap.sh dans la répo
